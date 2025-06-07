@@ -2,81 +2,168 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Marketing & SEO Services for Private Clinics. Grow your patient base with proven, ethical SEO.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Marketing & SEO Services for Private Clinics. Grow your patient base with proven, ethical SEO." />
   <title>Patient Path – Marketing & SEO for Private Clinics</title>
+  
+  <!-- Google Fonts: Poppins for modern clean look -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      color: #333;
-      background-color: #f4f4f4;
+      color: #2c3e50;
+      background-color: #fff;
+      line-height: 1.6;
     }
     header {
-      background: #007BFF;
+      background-color: #2ecc71; /* fresh green */
       color: white;
-      padding: 2em 1em;
+      padding: 3rem 1rem;
       text-align: center;
+      box-shadow: 0 4px 8px rgb(46 204 113 / 0.4);
     }
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-weight: 700;
+      font-size: 2.8rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-weight: 400;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto 4rem;
+      padding: 0 1rem;
+    }
+    
     section {
-      padding: 2em 1em;
-      max-width: 1000px;
-      margin: auto;
+      margin-bottom: 3rem;
     }
-    h1, h2 {
-      color: #007BFF;
+    h2 {
+      color: #27ae60;
+      font-weight: 600;
+      font-size: 2rem;
+      border-bottom: 3px solid #27ae60;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
     }
-    footer {
-      text-align: center;
-      background: #222;
-      color: white;
-      padding: 1em;
+    p, ul {
+      font-size: 1.1rem;
+      color: #34495e;
     }
-    .cta {
-      background: #28a745;
-      color: white;
-      padding: 1em;
-      text-align: center;
-      margin-top: 2em;
-      text-decoration: none;
+    ul {
+      padding-left: 1.5rem;
+      list-style-type: disc;
+    }
+    li {
+      margin-bottom: 0.6rem;
+    }
+    a.cta {
       display: inline-block;
-      border-radius: 4px;
+      background-color: #27ae60;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      margin-top: 1rem;
+    }
+    a.cta:hover {
+      background-color: #1e8449;
+    }
+
+    /* Image styling */
+    .hero-image, .section-image {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      main {
+        margin: 1rem;
+      }
     }
   </style>
 </head>
+
 <body>
   <header>
-    <h1>ClinicSEO</h1>
+    <h1>Patient Path</h1>
     <p>Marketing & SEO Services Tailored for Private Clinics and Practices</p>
+    <img
+      src="https://images.unsplash.com/photo-1588776814546-09e5c135a5f2?auto=format&fit=crop&w=900&q=80"
+      alt="Private clinic reception"
+      class="hero-image"
+    />
   </header>
 
-  <section>
-    <h2>Why Choose Us?</h2>
-    <p>We specialise in helping private clinics attract more patients through ethical, data-driven Marketing & SEO strategies. Whether you're a dermatologist, dentist, or specialist, we help you rank higher, get found, and grow your practice.</p>
-  </section>
+  <main>
+    <section>
+      <h2>Why Choose Us?</h2>
+      <p>We specialise in helping private clinics attract more patients through ethical, data-driven Marketing & SEO strategies. Whether you're a dermatologist, dentist, or specialist, we help you rank higher, get found, and grow your practice.</p>
+      <img
+        src="https://images.unsplash.com/photo-1588776814691-85f517fd9672?auto=format&fit=crop&w=900&q=80"
+        alt="Doctor consulting patient"
+        class="section-image"
+      />
+    </section>
 
-  <section>
-    <h2>Our Services</h2>
-    <ul>
-      <li>Local SEO Optimization</li>
-      <li>Content Strategy for Clinics</li>
-      <li>Google Business Profile Management</li>
-      <li>Website Speed & Mobile Optimization</li>
-      <li>Reputation & Review Management</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Local SEO Optimization</li>
+        <li>Content Strategy for Clinics</li>
+        <li>Google Business Profile Management</li>
+        <li>Website Speed & Mobile Optimization</li>
+        <li>Reputation & Review Management</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Case Studies</h2>
-    <p>See how we helped a London-based skin clinic increase organic leads by 180% in just 6 months.</p>
-  </section>
+    <section>
+      <h2>Case Studies</h2>
+      <p>See how we helped a London-based skin clinic increase organic leads by 180% in just 6 months.</p>
+      <img
+        src="https://images.unsplash.com/photo-1588776814780-9a56c65f6a5b?auto=format&fit=crop&w=900&q=80"
+        alt="Clinic team meeting"
+        class="section-image"
+      />
+    </section>
 
-  <section>
-    <h2>Get in Touch</h2>
-    <p>Ready to grow your private clinic.
-       <a href="mailto:connor@patient-path.co.uk" class="cta">Email Us</a>
-  </section>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Ready to grow your private clinic? <br/> Reach out to us today!</p>
+      <a href="mailto:connor@patient-path.co.uk" class="cta">Email Us</a>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Patient Path. All rights reserved.</p>
